@@ -1,0 +1,10 @@
+04:39:26 **** Incremental Build of configuration Debug for project 13_inputtimer ****
+make -j8 all 
+arm-none-eabi-size   13_inputtimer.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1036	      8	   1568	   2612	    a34	13_inputtimer.elf
+Finished building: default.size.stdout
+ 
+
+04:39:26 Build Finished. 0 errors, 0 warnings. (took 237ms)
+

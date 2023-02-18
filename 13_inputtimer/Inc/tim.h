@@ -1,0 +1,19 @@
+/*
+ * tim.h
+ *
+ *  Created on: 19-Feb-2023
+ *      Author: Richard Robinnson
+ */
+
+#ifndef TIM_H_
+#define TIM_H_
+
+void tim2_1hz_init();
+#include "stm32f4xx.h"
+#define SR_UIF (1U<<0)
+void tim2__pa5_output_compare();
+void tim3_pa6_input_compare();
+
+#define SR_CC1IF (1U<<1)
+
+#endif /* TIM_H_ */

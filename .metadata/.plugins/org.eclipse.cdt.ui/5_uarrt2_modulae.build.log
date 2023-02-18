@@ -1,0 +1,10 @@
+00:01:39 **** Incremental Build of configuration Debug for project 5_uarrt2_modulae ****
+make -j8 all 
+arm-none-eabi-size   5_uarrt2_modulae.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5444	    108	   1596	   7148	   1bec	5_uarrt2_modulae.elf
+Finished building: default.size.stdout
+ 
+
+00:01:39 Build Finished. 0 errors, 0 warnings. (took 166ms)
+
